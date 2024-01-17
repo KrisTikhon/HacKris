@@ -39,7 +39,7 @@
     transition: transform 0.3s ease-out;
   }
   .logo {
-    background-image: url('/kris-projects/hackris/images/favicon.ico');
+    background-image: url('../images/favicon.ico');
     background-size: contain;
     width: 60px;
     height: 60px;
@@ -51,8 +51,7 @@
     border-radius: 10px;;
   }
   .footer-background {
-    background-image: url('/kris-projects/hackris/images/kristikhon.png');
-    background-image: url(/kris-projects/hackris/images/kristikhon.png);
+    background-image: url(../images/kristikhon.png);
     background-size: cover;
     margin: 0 auto;
     background-repeat:repeat;
