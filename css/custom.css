@@ -51,8 +51,8 @@
     border-radius: 10px;;
   }
   .footer-background {
-    background-image: url('/kris-projects/hackris/images/KrisTikhon.png');
-    background-image: url(/kris-projects/hackris/images/KrisTikhon.png);
+    background-image: url('/kris-projects/hackris/images/kristikhon.png');
+    background-image: url(/kris-projects/hackris/images/kristikhon.png);
     background-size: cover;
     margin: 0 auto;
     background-repeat:repeat;
