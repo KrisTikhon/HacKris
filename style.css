@@ -22004,7 +22004,6 @@ body:not(.has-plugin-html5video) .video-wrap video {
   font-family: var(--cnvs-secondary-font);
   font-style: italic;
   text-underline-offset: 0.375rem;
-  text-decoration-thickness: 1px;
 }
 
 .post-navigation + .line {
