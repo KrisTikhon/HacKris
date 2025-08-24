@@ -1,5 +1,5 @@
 :root {
-    --cnvs-themecolor: rgb(3, 86, 43);
+    --cnvs-themecolor: rgb(34, 87, 122);
     --cnvs-themecolor: #07743b97;
     --cnvs-themecolor-rgb: 3, 86, 43;
     --cnvs-body-font: 'Source Sans Pro', sans-serif;
@@ -84,7 +84,7 @@
 }
 
 .is-expanded-menu .menu-container>.menu-item:hover>.menu-link,.is-expanded-menu .menu-container>.menu-item.current>.menu-link {
-    background-color: #0b4003;
+    background-color: rgb(88, 129, 87);
     color: #fff!important
 }
 

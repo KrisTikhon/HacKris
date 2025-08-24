@@ -364,7 +364,7 @@ sup {
 }
 
 a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  color: rgb(88, 129, 87);;
   text-decoration: underline;
 }
 a:hover {
@@ -13282,7 +13282,7 @@ textarea.form-control-lg {
 }
 :root {
   --cnvs-themecolor:	#1abc9c;
-  --cnvs-themecolor-rgb: rgb(31, 196, 31);
+  --cnvs-themecolor-rgb: rgb(88, 129, 87);
   --bs-link-color:	var(--cnvs-themecolor);
   --bs-link-color-rgb:	var(--cnvs-themecolor-rgb);
   --bs-link-hover-color:	var(--cnvs-heading-color);
@@ -14191,9 +14191,9 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-  background-color: rgba(var(--cnvs-themecolor-rgb), var(--bs-bg-opacity, 1)) !important;
+  background-color: rgba(58, 90, 64, 1);
 }
-
+/* rgba(86, 11, 173, 1); */
 .bg-color[class*=bg-opacity-] {
   background-color: rgba(var(--cnvs-themecolor-rgb), var(--bs-bg-opacity, 1)) !important;
 }
@@ -17773,10 +17773,11 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   border-top: 0;
 }
 .menu-item:hover > .menu-link {
-  color: var(--cnvs-primary-menu-hover-color);
+  /* color: var(--cnvs-primary-menu-hover-color); */
+  color: rgb(88, 129, 87) !important;
 }
 .menu-item.current > .menu-link {
-  color: var(--cnvs-primary-menu-active-color);
+  color: rgb(88, 129, 87);
 }
 .menu-item .sub-menu-trigger {
   display: block;
@@ -18156,7 +18157,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   margin-left: calc(var(--cnvs-primary-menu-icon-size) + var(--cnvs-primary-menu-icon-gap));
 }
 .is-expanded-menu .sub-menu-container .menu-item:hover > .menu-link {
-  background-color: var(--cnvs-primary-menu-submenu-hover-bg);
+  background-color: rgb(88, 129, 87);
   --cnvs-primary-menu-submenu-font-weight: var(--cnvs-primary-menu-submenu-hover-font-weight);
   padding-left: calc(var(--cnvs-primary-menu-submenu-padding-x) + var(--cnvs-primary-menu-submenu-hover-padding-offset));
 }
@@ -18167,7 +18168,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
 }
 .is-expanded-menu .sub-menu-container .menu-item:hover > .menu-link,
 .is-expanded-menu .sub-menu-container .menu-item.current > .menu-link {
-  color: var(--cnvs-primary-menu-submenu-hover-color);
+  color: rgb(88, 129, 87);
 }
 .is-expanded-menu .menu-link div > i.sub-menu-indicator {
   top: 0px;
@@ -18321,7 +18322,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   border-radius: 2px;
 }
 .is-expanded-menu .style-3 .menu-container > .menu-item:hover > .menu-link {
-  background-color: var(--cnvs-primary-menu-submenu-hover-bg);
+  background-color: rgb(88, 129, 87);
 }
 .is-expanded-menu .style-3 .menu-container > .menu-item.current > .menu-link {
   --cnvs-primary-menu-active-color: var(--bs-white);
@@ -18336,7 +18337,7 @@ body:not(.is-expanded-menu) .mobile-menu-overlay .menu-container {
   border: 1px solid transparent;
 }
 .is-expanded-menu .style-4 .menu-container > .menu-item:hover > .menu-link {
-  border-color: var(--cnvs-primary-menu-hover-color);
+  border-color: rgb(88, 129, 87);
 }
 .is-expanded-menu .style-4 .menu-container > .menu-item.current > .menu-link {
   border-color: var(--cnvs-primary-menu-active-color);
@@ -24152,7 +24153,7 @@ td.actions {
 .fbox-plain .fbox-icon img {
   border: none;
   background-color: transparent;
-  color: var(--cnvs-themecolor);
+  color: rgb(88, 129, 87);
   border-radius: 0;
 }
 .fbox-plain .fbox-icon i {
